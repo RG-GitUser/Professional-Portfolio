@@ -1,16 +1,31 @@
-header nav {
-  
-    float: right; 
+header {
+
+    float: right;
     font-size: 20px;
+    
 }
 
-header nav ul li { 
-    list-style-type: none;         
-    display: inline-block;          
-    margin-left: 25px;
+
+.hyperlink {
+    font-size: 10px;
+    display:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+    
 }
 
-.about-me {
+
+
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.get-to-know-me {
     position: absolute;
     bottom: 500px;
     left: 0;
@@ -21,18 +36,9 @@ header nav ul li {
 
 
 h2 {
-  position: absolute;
-  top: 200px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-}
-
-.description {
     position: absolute;
-    top: 400px;
-    left: 0;
-    width: 500px;
+    top: 200px;
+    right: 50;
+    width: 200px;
     height: 100px;
-
 }

@@ -8,22 +8,23 @@
 
 .navbar {
     padding: 10px;
-    width: -1000px;
     height: -1000px;
     text-align: center;
-    background: #b3f0ff;
-    color: black;
+    background: #1a1a1a;
+    color: #ff9900;
     border: solid;
     border-width: 10px;
-    border-color: #b3f0ff;
+    border-color: #1a1a1a;
     border-radius: 15px 30px 15px;
-    color:azure;
+    color: #ff9900(255, 111, 0);
+    
 
 
 }
 
 a:link {
-    color: azure;
+    color: #26734d;
+
 
 }
 
@@ -34,7 +35,7 @@ a:visited {
 
 
 a:hover {
-    color: #ff9966;
+    color: #ff9900;
 
 }
 
@@ -58,18 +59,35 @@ a {
 
 
 body {
-    background-color: #F5FFFA;
+    background-color: #404040;
 }
 
 
+
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("...Assets/Images/banner.jpg");
+    background-image: url('images/banner.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat; 
     height: 20%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 
+}
+
+
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: solid 2px;
+
+}
+
+
+.hero-text {
+    font-family: sans-serif;
+   
 }
 
 
@@ -79,12 +97,12 @@ body {
     font-family: sans-serif;
     font-stretch: condensed;
     display: flex;
-    justify-content: flex-start;
+    justify-content: baseline;
 
 
 }
 
 .about-me-section {
     font-family: sans-serif;
-    font-stretch: condensed;
+    font-stretch: extra-condensed;
 }

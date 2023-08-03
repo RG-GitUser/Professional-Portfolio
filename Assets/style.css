@@ -17,7 +17,7 @@
     border-color: #1a1a1a;
     border-radius: 15px 30px 15px;
     color: #ff9900(255, 111, 0);
-    
+
 
 
 }
@@ -51,7 +51,7 @@ a {
     position: absolute;
     top: 40px;
     right: 40px;
-    word-spacing:5px;
+    word-spacing: 5px;
 }
 
 
@@ -66,11 +66,9 @@ body {
 
 .hero-image {
     background-image: url('images/banner.jpg');
-    background-size: 100%; 
-    background-repeat: no-repeat; 
-    height: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    position: relative;
 
 }
 
@@ -78,20 +76,26 @@ body {
 
 .hero-image {
     width: 100%;
-    height: auto;
+    height: 100px;
     margin: auto;
-    border: solid 2px;
+
 
 }
 
 
 .hero-text {
     font-family: sans-serif;
-   
+
 }
 
 
 
+
+
+.about-me-section {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
 
 .get-to-know-me {
     font-family: sans-serif;
@@ -99,10 +103,4 @@ body {
     display: flex;
     justify-content: baseline;
 
-
-}
-
-.about-me-section {
-    font-family: sans-serif;
-    font-stretch: extra-condensed;
 }

@@ -166,7 +166,33 @@ body {
 }
 
 
+#profile-heading {
+    width: 100%;
+    display: flex;
+   
+  
+}
 
+#profile-pic {
+    max-height: 200px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    right: 10px;
+  
+    
+} 
+
+
+
+
+
+
+
+.image-button {
+    position: absolute;
+
+}
 
 
 

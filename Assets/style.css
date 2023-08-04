@@ -33,6 +33,18 @@ body{
 }
 
 
+
+
+.wrapper-main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
 .navbar {
     padding: 10px;
     height: -1000px;
@@ -185,19 +197,34 @@ body {
 } 
 
 
-.card {
-    display:flex;
-    position: absolute;
-    justify-content:center;
-    padding: 50px;
-    border: 1px solid orange;   
-    margin:-50;
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 37px auto 0;
+    width: calc(280px * 4);
     
 }
 
+.card {
+    box-shadow: 0 3px 10px 0 #1a1a1a;
+    cursor: pointer;
+    height: 280px;
+    position: relative;
+    width: 243px;
+}
 
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
-
+.img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
 
 
 @media all and (max-width: 500px) {

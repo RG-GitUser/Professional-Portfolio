@@ -26,5 +26,4 @@ Used for displaying my work and information to show to future employers.
 
 Stock images: https://www.vecteezy.com/free-photos?utm_source=google&utm_medium=cpa&utm_campaign=search&utm_term=freestockphotos&utm_content=ca&gclid=EAIaIQobChMI3dr2983AgAMVmMDICh3z2Q6ZEAAYAyAAEgLoGvD_BwE
 
-Coding: https://www.w3schools.com/ 
-        https://stackoverflow.com/ 
+Coding: https://www.w3schools.com/ and https://stackoverflow.com/ 

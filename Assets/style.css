@@ -71,7 +71,7 @@ a:link {
 }
 
 a:visited {
-    color: #26734d;
+    color: #de6bb4;
 }
 
 
@@ -212,8 +212,31 @@ body {
 
 
 
+
+.work-container {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #d0d0d0;
+    text-align: center;
+     
+
+}
+
+.work-container {
+  max-width: 500px;
+  padding: 30px;
+  border: 1px inset;
+  margin:auto;
+  margin-top: 300px;
+  background: #0000008a;
+  border-color: #ff9900;
+}
+
+
+
 .cards {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 37px auto 0;
     width: calc(280px * 4);
@@ -259,7 +282,11 @@ body {
 }
 
 
-
+.card-title {
+    font-family: sans-serif;
+    font-size: 20px;
+    font:#000000;
+}
 .card1{
     box-shadow: 0 3px 10px 0 #1a1a1a;
     cursor: pointer;
@@ -345,10 +372,22 @@ body {
 }
 
 .footer {
-    padding: 300px;
-    margin:auto;
-    border: solid #ff9900;
-    border-width: 1px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #d0d0d0;
+    text-align: center;
+     
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#ff9900;
+    color: white;
+    text-align: center;
 }
 
 @media all and (max-width: 500px) {

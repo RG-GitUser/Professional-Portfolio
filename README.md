@@ -4,7 +4,9 @@
 
 Welcome to my portfolio! 
 
-Within this web page you will be able to navigate through to get to know more about me. My coding for this web pageis an example of my skills and what I have learned in the HTML and CSS lessons. I hope you enjoy taking a browse, happy coding! 
+Within this web page you will be able to navigate through to get to know more about me. My coding for this web page is an example of my skills and what I have learned in the HTML and CSS lessons. I hope you enjoy taking a browse! 
+
+Happy coding! 
 
 
 ## Installation
@@ -18,5 +20,11 @@ Within this web page you will be able to navigate through to get to know more ab
 
 ## Usage
 
+Used for displaying my work and information to show to future employers. 
 
 ## Credits 
+
+Stock images: https://www.vecteezy.com/free-photos?utm_source=google&utm_medium=cpa&utm_campaign=search&utm_term=freestockphotos&utm_content=ca&gclid=EAIaIQobChMI3dr2983AgAMVmMDICh3z2Q6ZEAAYAyAAEgLoGvD_BwE
+
+Coding: https://www.w3schools.com/ 
+        https://stackoverflow.com/ 

@@ -162,6 +162,7 @@ body {
     border-radius: 15px 50px 15px;
     color: #d0d0d0(255, 111, 0);
     margin: -50px;
+    position: absolute;
 
 }
 

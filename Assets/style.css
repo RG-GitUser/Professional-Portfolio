@@ -295,7 +295,7 @@ body {
     height: 280px;
     position: relative;
     width: 243px;
-    background-image:url(images/image2.jpg);
+    background-image:url(Images/Weddingrsvp.jpg);
     background-size: cover;
     opacity: 1.0;
 }
@@ -393,6 +393,7 @@ body {
     font-size: 15px;
     font-family: sans-serif;
     color: white;
+    height:130px;
    
 }
 
